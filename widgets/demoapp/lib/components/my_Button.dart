@@ -6,7 +6,13 @@ class MyButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-     child: Center(child: Text("Sign in"),),
+      padding: EdgeInsets.all(25),
+      margin: EdgeInsets.symmetric(horizontal: 10),
+      decoration: BoxDecoration(color: const Color.fromRGBO(0, 0, 0, 1),
+      borderRadius: BorderRadius.circular(10)),
+     child: Center(child: Text("Sign in", style: TextStyle(color: Colors.white),),
+     
+     ),
     );
   }
 }
