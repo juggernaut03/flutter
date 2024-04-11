@@ -1,5 +1,6 @@
 import 'package:demoapp/components/dialog.dart';
 import 'package:demoapp/components/my_list.dart';
+import 'package:demoapp/pages/Onboarding.dart';
 import 'package:demoapp/pages/login.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Simple App',
-      home: MyList(),
+      home: Onboard(),
       
     );
   }
